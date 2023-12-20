@@ -1,0 +1,73 @@
+.footer{
+    padding:70px 100px 0px 90px;
+    height:400px;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}
+.about-us{
+    width:28%;
+    height:75%;
+}
+.explore{
+    width:28%;
+    height:75%;
+}
+.explore>h3{
+    padding-left:40px;
+}
+.a-links{
+    display:flex;
+    justify-content:space-around;
+}
+.a1>li>i, .a2>li>i{
+    color:rgb(250, 186, 23);
+    font-size:18px;
+    margin-right:10px;
+    line-height:40px;
+}
+.a1>li, .a2>li{
+    list-style:none;
+}
+.a1>li>a, .a2>li>a{
+    font-size:18px;
+    text-decoration: none;
+    color:white;
+    border-bottom: 2px dotted rgb(191, 147, 147);
+}
+.a1>li>a:hover, .a2>li>a:hover{
+    color:rgb(250, 186, 23);
+}
+.contact{
+    width:28%;
+    height:75%;
+}
+.footer-end{
+    position:relative;
+    height:100px;
+    width:100%;
+    background-color:black;
+    overflow:hidden;
+}
+.footer-text{
+    height:100%;
+    margin:0px 9%;
+    width:83%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.footer-text>img{
+    position:absolute;
+    top:80px;
+    left:85%;
+    height:60px;
+    transform: rotate(90deg);
+}
+.footer-text>img:hover{
+    position:absolute;
+    top:25px;
+    left:85%;
+    transition:all 0.3s linear;
+}
+

@@ -1,0 +1,50 @@
+.banner-2{
+    height:650px;
+    width:100%;
+    background-image: url(./img/download-bg.jpg);
+    opacity:1.5;
+    background-repeat: no-repeat;
+    object-fit:fill;
+    background-size:cover;
+    background-position: center;
+    position:relative;
+}
+.banner-2-heading{
+    padding-top:70px;
+}
+.banner-2-heading>p, .banner-2-heading>h1{
+    margin:0;
+    padding:0;
+}
+.b2c{
+    width:90%;
+    margin-top:80px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.list-1>h3, .list-2>h3, .list-3>h3, .list-4>h3{
+    font-weight:bold;
+    font-size:20px;
+    height:40px;
+    width:40px;
+    text-align: center;
+    padding:5px;
+    border-radius:50%;
+}
+.b2c1, .b2c2{
+    width:32%;
+}
+.list-1 , .list-2, .list-3, .list-4{
+    display:flex;
+    margin-top:30px;
+}
+.b2c>img{
+    position:absolute;
+    top:31%;
+    left:40%;
+    border-top-left-radius:45px;
+    border-top-right-radius:45px;
+}
+
+

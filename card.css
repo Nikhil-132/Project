@@ -1,0 +1,28 @@
+.c-heading{
+    height:600px;
+    width:100%;
+    padding:50px 0px;
+}
+.c-heading>h1, .c-heading>p{
+    margin:0;
+    padding:0;
+}
+#card{
+    margin:100px 0px 0px 0px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.card{
+    height:300px;
+    width:300px;
+    padding: 0px 30px;
+    border-color: transparent;
+}
+.card>img{
+    height:100px;
+    width:90px;
+}
+.card-body>h6{
+    font-size:18px;
+}

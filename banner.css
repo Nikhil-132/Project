@@ -1,0 +1,80 @@
+.video-clip{
+    height:850px;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./img/homepage-3-2-bg.jpg);
+
+    animation: image 10s infinite;
+    position:relative;
+}
+.form{
+    height:520px;
+    width:600px;
+    position:absolute;
+    top:185px;
+    left:150px;
+    background-color: white;
+}
+.sub-img{
+    margin: 40px 10%;
+    height:60px;
+    width:80%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.sub-img>img{
+    height:50px;
+}
+.row{
+    margin-left:60px;
+}
+#col>input{
+    height:50px;
+}
+.form>button{
+    background-color:rgb(250, 186, 23);
+    margin-top:40px;
+    border-radius:25px;
+    border-color:transparent;
+    padding:8px 30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.form>button:hover{
+    color:rgb(250, 186, 23);
+    background-color:black;
+    transition:all 1s linear;
+}
+.banner-bottom{
+    height:100px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.banner-bottom>button{
+    background-color:rgb(250, 186, 23);
+    border-color:black;
+    border-radius:30px;
+    padding:10px 35px;
+}
+.banner-bottom>button:hover{
+    color:rgb(250, 186, 23);
+    background-color:black;
+    transition:all 0.5s linear;
+}
+
+@keyframes image{
+    25%
+    {
+        background-image: url(./img/homepage-3-2-bg.jpg);
+    }
+    50%
+    {
+        background-image: url(./img/homepage-3-bg.jpg);
+    }
+}

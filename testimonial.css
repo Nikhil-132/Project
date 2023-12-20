@@ -1,0 +1,80 @@
+.testimonial{
+    position:relative;
+    padding-top:50px;
+    height:700px;
+    width:100%;
+}
+.testimonial>h1, .testimonial>p{
+    margin:0;
+    padding:0;
+}
+swiper-container {
+    margin-top:50px;
+    width: 80%;
+    height: 70%;
+  }
+
+  swiper-slide {
+    height:360px;
+    width:280px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:50px;
+  }
+  swiper-slide>i{
+    color:grey;
+  }
+.slide1{
+    padding: 30px 30px 30px 30px;
+}
+.slide2{
+    padding: 30px 30px 90px 30px;
+}
+.slide3{
+    padding:30px 30px 100px 30px;
+}
+
+  swiper-slide img {
+    position:absolute;
+    top:350px;
+    left:45%;
+    border-radius:50%;
+    width:50px;
+    height:50px;
+    overflow:hidden;
+  }
+.gallery{
+    height:280px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+.gallery>img{
+    height:280px;
+    width:600px;
+}
+.f-label{
+    height:150px;
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.f-heading>p, .f-heading>h3{
+    margin:0;
+    padding:0;
+}
+.label-img{
+    width:820px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.label-img>span>img{
+    height:70px;
+}
