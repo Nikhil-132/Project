@@ -1,13 +1,18 @@
 .taxi-card{
-    position:relative;
-    height:600px;
+    height:650px;
     width:100%;
-    padding-top:50px;
+    padding:50px 0px 100px 0px;
     background-color: rgb(241, 239, 239);
 }
 .taxi-card>h1, .taxi-card>p{
     margin:0;
     padding:0;
+}
+#ca{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    margin:60px 0px 60px 0px;
 }
 .t-card{
     margin-right:30px;
@@ -37,24 +42,11 @@
 }
 .taxi-3:hover{
     box-shadow: 0px 0px 10px white,
-    0px 0px 3px rgb(250, 186, 23);
+    0px 0px 5px rgb(250, 186, 23);
 }
 #t-3{
     height:345px;
-    width:265px;
-    clip-path: polygon(0 0, 72% 0, 100% 23%, 100% 100%, 0 100%);
+    width:263px;
 }
-#ca{
-    display:flex;
-    justify-content:center;
-    margin:60px 0px 0px 0px;
-}
-.label-star{
-    height:330px;
-    width:330px;
-    background-color: rgb(250, 186, 23);
-    clip-path: polygon(100% 0, 76% 0, 100% 25%);
-    position:absolute;
-    top:200px;
-    left:660px;
-}
+
+

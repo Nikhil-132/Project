@@ -1,7 +1,7 @@
 .banner-2{
     height:650px;
     width:100%;
-    background-image: url(./img/download-bg.jpg);
+    background-image: url(/Project/img/download-bg.jpg);
     opacity:1.5;
     background-repeat: no-repeat;
     object-fit:fill;

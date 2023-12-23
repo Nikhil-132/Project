@@ -4,7 +4,7 @@
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url(./img/homepage-3-2-bg.jpg);
+    background-image: url(/Project/img/homepage-3-2-bg.jpg);
 
     animation: image 10s infinite;
     position:relative;
@@ -71,10 +71,10 @@
 @keyframes image{
     25%
     {
-        background-image: url(./img/homepage-3-2-bg.jpg);
+        background-image: url(/Project/img/homepage-3-2-bg.jpg);
     }
     50%
     {
-        background-image: url(./img/homepage-3-bg.jpg);
+        background-image: url(/Project/img/homepage-3-bg.jpg);
     }
 }
