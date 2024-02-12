@@ -50,24 +50,23 @@
         <button class="fw-bold fs-5 mx-auto">GET TAXI</button>
       </div>
     </div>
-    <nav class="navbar fixed-top navbar-expand-lg text-center">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid py-2">
           <img src="./img/logo-inner.png" alt="" srcset="">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="bg-light navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-xl-0 fw-bold ms-auto">
+            <ul class="navbar-nav gap-3 ms-auto mb-2 mb-lg-0 ">
               <li class="nav-item dropdown">
-                <a class="nav-link active dropdown-toggle text-warning" role="button" data-bs-toggle="dropdown" aria-current="page" href="#">HOME</a>
+                <a class="nav-link active dropdown-toggle text-warning fw-bold" role="button" data-bs-toggle="dropdown" aria-current="page" href="#">HOME</a>
                 <ul class="dropdown-menu fs-5">
                   <li><a href="#" class="dropdown-item">Homepage 1</a></li>
                   <li><a href="#" class="dropdown-item">Homepage 2</a></li>
                   <li><a href="#" class="dropdown-item">Homepage 3</a></li>
                 </ul>
               </li>
-              <li class="nav-item-2 text-center">
+              <li class="nav-item-2">
                 <a class="nav-link" href="#">GET TAXI</a>
               </li>
               <li class="nav-item">
@@ -148,13 +147,15 @@
                   <li><a href="#" class="dropdown-item">Team</a></li>
                 </ul>
               </li>
+              <button type="button" class="btn position-relative">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </button>
             </ul>
-            <button type="button" class="btn position-relative">
-              <i class="fa-solid fa-cart-shopping"></i><span class="position-absolute top-25 start-85 translate-middle badge border border-light rounded-circle bg-danger p-1">0<span class="visually-hidden text-danger">0</span></span>
-            </button>
           </div>
+        </div>
       </nav>
-      <div class="banner-bottom bg-warning">
+    <div class="banner-bottom bg-warning">
+      <div class="add-info">
         <div class="call">
           <i class="fa-solid fa-phone-flip rounded-circle p-3 bg-light fs-4"></i>
           <span class="fs-5 fw-bold">800-5-800</span>
@@ -167,12 +168,14 @@
           <i class="fa-solid fa-location-dot rounded-circle p-3 bg-light fs-4"></i>
           <span class="fs-5 fw-bold">43 2-ND AVENUE, NEW YORK, 29004-7153</span>
         </div>
+      </div>
         <button class="fw-bold fs-5">OUR TRAFFIS</button>
       </div>
       <div class="c-heading">
-        <p class="fw-bold fs-5 text-center text-warning">WELCOME</p>
+        <p class="fw-bold text-center text-warning">WELCOME</p>
         <h1 class="fw-bold text-center">OUR SERVICES</h1>
       <div class="cc" id="card" >
+        <div class="pair-1">
           <div class="card border-end">
             <img src="./img/location.png" class="card-img-top mx-auto" alt="...">
             <div class="card-body">
@@ -187,6 +190,8 @@
               <p class="card-text text-center">If you need a comfortable hotel, our operators will book it for you, and take a taxi to the address</p>
             </div>
           </div>
+        </div>
+        <div class="pair-2">
           <div class="card border-end">
             <img src="./img/aeroplane.png" class="card-img-top mx-auto" alt="...">
             <div class="card-body">
@@ -201,17 +206,19 @@
               <p class="card-text text-center">If you need a comfortable hotel, our operators will book it for you, and take a taxi to the address</p>
             </div>
           </div>
+        </div>
       </div>
       </div>
       <div class="taxi-card">
         <p class="fw-bold fs-3 text-center text-warning">SEE OUR</p>
         <h1 class="fw-bold text-center">TARIFFS</h1>
         <div class="t-c " id="ca">
+          <div class="group-1">
           <div class="taxi-1">
             <div class="t-card border">
               <img src="./img/Taxi 1.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title fw-bold fs-4 text-center p-3">STANDART</h5>
+                <h5 class="card-title fw-bold text-center p-3">STANDART</h5>
                 <p class="card-text text-center">Standard sedan for a drive around the city at your service.</p>
                 <p class="taxi-price fw-bold fs-2 text-center"> $ 2 <span class="fs-5">/km</span></p>
               </div>
@@ -221,17 +228,19 @@
             <div class="t-card border">
               <img src="./img/Taxi 2.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title fw-bold fs-4 text-center p-3">BUSINESS</h5>
+                <h5 class="card-title fw-bold text-center p-3">BUSINESS</h5>
                 <p class="card-text text-center">Standard sedan for a drive around the city at your service.</p>
                 <p class="taxi-price fw-bold fs-2 text-center"> $ 2.7 <span class="fs-5">/km</span></p>
               </div>
             </div>
           </div>
+        </div>
+        <div class="group-2">
           <div class="taxi-3">
             <div class="t-card" id="t-3">
               <img src="./img/Taxi 3.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title fw-bold fs-4 text-center p-3">VIP</h5>
+                <h5 class="card-title fw-bold text-center p-3">VIP</h5>
                 <p class="card-text text-center">Standard sedan for a drive around the city at your service.</p>
                 <p class="taxi-price fw-bold fs-2 text-center"> $ 5 <span class="fs-5">/km</span></p>
               </div>
@@ -241,37 +250,38 @@
             <div class="t-card border">
               <img src="./img/Taxi 4.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title fw-bold fs-4 text-center p-3">BUS-MINIVAN</h5>
+                <h5 class="card-title fw-bold text-center p-3">BUS-MINIVAN</h5>
                 <p class="card-text text-center">Standard sedan for a drive around the city at your service.</p>
                 <p class="taxi-price fw-bold fs-2 text-center"> $ 5 <span class="fs-5">/km</span></p>
               </div>
             </div>
           </div>
         </div>
-
+        </div>
       </div>
       <div class="banner-2">
         <div class="banner-2-heading">
           <p class="fw-bold fs-3 text-center text-warning">GET MORE BENEFITS</p>
           <h1 class="fw-bold fs-1 text-light text-center">DOWNLOAD THE APP</h1>
+          <img src="./img/More-info.png" alt="">
         <div class="b2c mx-auto">
         <div class="b2c1">
           <div class="list-1">
             <h3 style="margin-right:15px;" class="bg-warning ">01.</h3>
-            <p class="fw-bold fs-4 text-warning">FAST BOOKING <br><span class="fs-6 text-light h-25 d-inline-block">Nam ac ligula congue, interdum enim sit amet, fermentum nisi.</span></p>
+            <p class="fw-bold fs-4 text-warning">FAST BOOKING <br><span class="fs-6 text-light h-25">Nam ac ligula congue, interdum enim sit amet, fermentum nisi.</span></p>
           </div>
           <div class="list-2">
             <h3 style="margin-right:15px;" class="bg-warning ">02.</h3>
-            <p class="fw-bold fs-4 text-warning" >EASY TO USE<br><span class="fs-6 text-light h-25 d-inline-block">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span></p>
+            <p class="fw-bold fs-4 text-warning" >EASY TO USE<br><span class="fs-6 text-light h-25">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span></p>
           </div>
         </div>
         <div class="b2c2">
           <div class="list-3">
-            <p class="fw-bold fs-4 text-end text-warning">GPS SEARCHING<br><span class="fs-6 text-light h-25 d-inline-block">Ut elementum tincidunt erat vel ornare. Suspendisse ac felis non diam pretium.</span></p>
+            <p class="fw-bold fs-4 text-warning">GPS SEARCHING<br><span class="fs-6 text-light h-25">Ut elementum tincidunt erat vel ornare. Suspendisse ac felis non diam pretium.</span></p>
             <h3 style="margin-left:15px;" class="bg-warning ">03.</h3>
           </div>
-          <div class="list-3">
-            <p class="fw-bold fs-4 text-end text-warning">BONUSES FOR RIDE<br><span class="fs-6 text-light h-25 d-inline-block">Phasellus l et porta tortor dignissim at. Pellentesque gravida tortor at euismod mollis.</span></p>
+          <div class="list-4">
+            <p class="fw-bold fs-4 text-warning">BONUSES FOR RIDE<br><span class="fs-6 text-light h-25">Phasellus l et porta tortor dignissim at. Pellentesque gravida tortor at euismod mollis.</span></p>
             <h3 style="margin-left:15px;" class="bg-warning ">04.</h3>
           </div>
         </div>

@@ -54,7 +54,15 @@
     width:100%;
     display:flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+.add-info{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.call, .loc, .site{
+    padding-left:35px;
 }
 .banner-bottom>button{
     background-color:rgb(250, 186, 23);
@@ -76,5 +84,103 @@
     50%
     {
         background-image: url(/Project/img/homepage-3-bg.jpg);
+    }
+}
+
+/* responsive */
+
+@media only screen and (max-width:991px){
+    .video-clip{
+        width:992px;
+        position:relative;
+    }
+    .form{
+        height:520px;
+        width:600px;
+        position:absolute;
+        top:185px;
+        left:50px;
+        background-color: white;
+    }
+    .add-info{
+        padding:20px;
+        display:flex;
+        align-items: center;
+        justify-content:space-evenly;
+    }
+    .banner-bottom{
+        padding:30px 5px;
+        height:auto;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+    }
+    .call, .loc, .site{
+        padding-left:25px;
+    }
+    .banner-bottom>button{
+        padding:10px 25px;
+    }  
+}
+
+@media only screen and (max-width:767px){
+    .video-clip{
+        width:767px;
+        position:relative;
+    }
+    .add-info{
+        padding:20px 0px;
+        display:flex;
+        flex-direction:column;
+        align-items: flex-start;
+    }
+    .call, .loc, .site{
+        font-size:25px;
+        padding:8px 0px;
+    }
+    .banner-bottom{
+        padding:20px 10px;
+        height:auto;
+        width:767px;
+        display:flex;
+        flex-direction:column;
+        align-items:flex-start;
+    }
+    .banner-bottom>button{
+        padding:10px 35px;
+        margin-left:15px;
+    }  
+}
+
+@media only screen and (max-width:575px){
+    .video-clip{
+        width:575px;
+        position:relative;
+    }
+    .form{
+        height:650px;
+        width:100%;
+        position:absolute;
+        top:150px;
+        left:0px;
+        background-color: white;
+    }
+    .banner-bottom{
+        width:575px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+    }
+    .sub-img{
+        margin: 20px 5%;
+        height:120px;
+        width:90%;
+        display:flex;
+        align-items:center;
+        justify-content:space-around;
+    }
+    .sub-img>img{
+        height:75px;
     }
 }

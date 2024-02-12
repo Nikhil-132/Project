@@ -14,6 +14,9 @@
     justify-content:center;
     margin:60px 0px 60px 0px;
 }
+.group-1, .group-2{
+    display:flex;
+}
 .t-card{
     margin-right:30px;
     height:350px;
@@ -50,3 +53,112 @@
 }
 
 
+@media only screen and (max-width:991px){
+    .taxi-card{
+        height:100%;
+        padding:25px 0px;
+    }
+    #ca{
+       margin:20px;
+       display:flex;
+       flex-direction: column; 
+       align-items:center;
+    }
+    .t-card, .taxi-3{
+        height:380px;
+        width:350px;
+    }
+    #t-3{
+        height:375px;
+        width:343px;
+    }
+    .group-1{
+        margin-bottom: 30px;
+    }
+    .t-card>img{
+        height:140px;
+        width:200px;
+    } 
+}
+
+@media only screen and (max-width:767px){
+    .taxi-card{
+        height:100%;
+    }
+    #ca{
+        display:flex;
+        flex-direction: column; 
+     }
+     .t-card>img{
+        height:150px;
+        width:250px;
+    }
+    .group-1, .group-2{
+        padding: 0px 5%;
+        width:100%;
+        display:flex;
+        flex-direction: column; 
+    }
+    .t-card{
+        margin-top:20px;
+        height:400px;
+        width: 100%;
+    }
+    .taxi-3{
+        height:400px;
+        width: 100%;
+    }
+    #t-3{
+        margin-top:0px;
+        height:395px;
+        width:100%;
+    }
+    .card-body>h5{
+        font-size:30px;
+    }
+    .card-body>p{
+        font-size:22px;
+    }
+
+}
+
+@media only screen and (max-width:575px){
+    #ca{
+        display:flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items:center;
+     }
+    .group-1{
+        display:flex;
+        flex-direction:column;
+     } 
+     .group-2{
+        display:flex;
+        flex-direction:column;
+     }
+     .t-card{
+        height:480px;
+        width: 430px;
+        margin-bottom:20px;
+    }
+    #t-3{
+        height:470px;
+        width:430px;
+    }
+    .taxi-3{
+        height:480px;
+        width:435px;
+        margin-bottom:20px;
+    }
+    .t-card>img{
+        height:180px;
+        width:300px;
+    }
+    .card-body>h5{
+        font-size:35px;
+    }
+    .card-text{
+        font-size:30px;
+    }
+}

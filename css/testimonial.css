@@ -78,3 +78,47 @@ swiper-container {
 .label-img>span>img{
     height:70px;
 }
+
+
+@media only screen and (max-width:991px){
+    .testimonial{
+        display:none;
+    }
+    .gallery{
+        height:100%;
+        width:100%;
+    }
+    .gallery>img{
+        height:200px;
+        width:400px;
+    }
+    .f-label{
+        height:250px;
+        width:100%;
+        padding: 20px 80px; 
+    }
+}
+
+@media only screen and (max-width:767px){
+    .gallery{
+        height:100%;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .gallery>img{
+        height:250px;
+        width:500px;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .gallery>img{
+        height:250px;
+        width:100%;
+    }
+    .label-img{
+        display:none;
+    }
+}

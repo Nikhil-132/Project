@@ -71,3 +71,56 @@
     transition:all 0.3s linear;
 }
 
+
+@media only screen and (max-width:991px){
+    .footer{
+        padding:70px 45px;
+        height:100%;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+    }
+    .explore{
+        display:none;
+    }
+    .about-us{
+        width:100%;
+    }
+    .about-us>h3{
+        font-size:32px;
+    }
+    .about-us>p{
+        font-size:22px;
+    }
+    .contact{
+        width:100%;
+    }
+    .contact>h3{
+        font-size:32px;
+    }
+    .contact>address{
+        font-size:22px;
+    }
+    .footer-text>p{
+        font-size:28px;
+    }
+    .footer-text{
+        margin:10px 50px;
+    }
+}
+
+
+@media only screen and (max-width:767px){
+    .footer-text>p{
+        font-size:24px;
+    }
+    .footer-text>img{
+        display:none;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .footer-text>p{
+        font-size:20px;
+    }
+}
